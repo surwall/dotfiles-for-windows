@@ -1,0 +1,14 @@
+[user]
+	email = surwall07@gmail.com
+	name = Marcus Xu
+[core]
+	editor = gvim.bat -f -i NONE
+	quotepath = false
+	pager = less -r
+[init]
+	defaultBranch = main
+[alias]
+	cm = commit
+	ss = status --short
+	df = difftool
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an>%Creset' --abbrev-commit
